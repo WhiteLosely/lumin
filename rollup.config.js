@@ -9,7 +9,6 @@ export default [
       file: `${outFolder}/lumin.min.js`,
       format: 'iife',
       name: 'lumin'
-    },
-    plugins: [minify({ comments: false })]
+    }
   }
 ];
